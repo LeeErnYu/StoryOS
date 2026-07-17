@@ -1,46 +1,24 @@
 \# StoryOS Project Charter
 
-
-
 \## 1. Project Identity
-
-
 
 StoryOS is a world-building and AI-assisted storytelling platform designed to allow users to create, manage, and expand persistent fictional universes.
 
-
-
 The purpose of StoryOS is not to create a simple chatbot or a single-character roleplay assistant.
-
-
 
 StoryOS is designed as a digital writers' room where the user acts as the Director, the Canon acts as the source of truth, and the AI acts as the Writer responsible for transforming direction into coherent narrative.
 
-
-
 The central philosophy of StoryOS is:
-
-
 
 \*\*The world exists first. The story emerges from the world.\*\*
 
-
-
 \---
-
-
 
 \# 2. Core Roles
 
-
-
 \## The User: The Director
 
-
-
 The user is responsible for:
-
-
 
 \* Defining the direction of the story
 
@@ -52,27 +30,15 @@ The user is responsible for:
 
 \* Approving changes to the Canon
 
-
-
 The AI must not replace the Director.
-
-
 
 The AI may suggest possibilities, but the final narrative direction belongs to the user.
 
-
-
 \---
-
-
 
 \## The AI: The Writer
 
-
-
 The AI is responsible for:
-
-
 
 \* Transforming the Director's instructions into written chapters
 
@@ -84,31 +50,17 @@ The AI is responsible for:
 
 \* Expanding scenes with detail and emotion
 
-
-
 The AI is not the owner of the story.
-
-
 
 The AI serves the story.
 
-
-
 \---
-
-
 
 \## The Canon: The Source of Truth
 
-
-
 The Canon is the permanent record of the fictional universe.
 
-
-
 The Canon contains:
-
-
 
 \* Historical events
 
@@ -126,27 +78,15 @@ The Canon contains:
 
 \* Important decisions
 
-
-
 The AI must prioritise Canon accuracy over improvisation.
-
-
 
 If the AI conflicts with the Canon, the Canon is correct.
 
-
-
 \---
-
-
 
 \# 3. Project Goals
 
-
-
 StoryOS aims to provide:
-
-
 
 \* Persistent fictional universes
 
@@ -160,35 +100,19 @@ StoryOS aims to provide:
 
 \* User-controlled creative direction
 
-
-
 The system should allow users to create stories that span hundreds of chapters without losing consistency.
-
-
 
 \---
 
-
-
 \# 4. World Structure
-
-
 
 A StoryOS universe is structured hierarchically.
 
-
-
 \## Universe
-
-
 
 The highest-level container.
 
-
-
 Contains:
-
-
 
 \* Timeline
 
@@ -202,23 +126,13 @@ Contains:
 
 \* Major events
 
-
-
 \---
-
-
 
 \## Countries / Territories
 
-
-
 Represent the political and social backdrop of the story.
 
-
-
 Contains:
-
-
 
 \* Government
 
@@ -230,23 +144,13 @@ Contains:
 
 \* Historical context
 
-
-
 \---
-
-
 
 \## Teams / Factions / Families
 
-
-
 Groups of characters with shared identity.
 
-
-
 A team may represent:
-
-
 
 \* A family
 
@@ -258,11 +162,7 @@ A team may represent:
 
 \* A civilisation
 
-
-
 Teams influence:
-
-
 
 \* Character behaviour
 
@@ -272,23 +172,13 @@ Teams influence:
 
 \* Values
 
-
-
 \---
-
-
 
 \## Characters
 
-
-
 Individual entities within the world.
 
-
-
 Characters must support:
-
-
 
 \* Unique personality
 
@@ -308,39 +198,21 @@ Characters must support:
 
 \* Skills
 
-
-
 Characters should not behave as generic AI personalities.
-
-
 
 Their actions must reflect their history and relationships.
 
-
-
 \---
-
-
 
 \# 5. Story Generation Philosophy
 
-
-
 StoryOS does not generate random stories.
-
-
 
 Story generation follows:
 
-
-
 Director Intent → Canon Reference → Character Logic → Narrative Output
 
-
-
 Before writing, the system should consider:
-
-
 
 \* What has happened before?
 
@@ -352,23 +224,13 @@ Before writing, the system should consider:
 
 \* What consequences should occur?
 
-
-
 \---
-
-
 
 \# 6. Writing Standards
 
-
-
 Generated stories should resemble professional fiction rather than chatbot responses.
 
-
-
 Output should include:
-
-
 
 \* Chapter titles
 
@@ -380,11 +242,7 @@ Output should include:
 
 \* Character-driven dialogue
 
-
-
 The writing system should support multiple genres, including:
-
-
 
 \* Dystopia
 
@@ -402,11 +260,7 @@ The writing system should support multiple genres, including:
 
 \* Drama
 
-
-
 The writing style should prioritise:
-
-
 
 \* Character depth
 
@@ -418,27 +272,15 @@ The writing style should prioritise:
 
 \* Narrative structure
 
-
-
 \---
-
-
 
 \# 7. Modular Architecture Principle
 
-
-
 StoryOS must be built as a modular system.
-
-
 
 Major components should be replaceable without requiring a complete rewrite.
 
-
-
 Examples of independent modules:
-
-
 
 \* Canon Management
 
@@ -456,27 +298,15 @@ Examples of independent modules:
 
 \* Export System
 
-
-
 No single module should control the entire application.
-
-
 
 \---
 
-
-
 \# 8. AI Independence Principle
-
-
 
 StoryOS must not depend on a single AI model.
 
-
-
 The AI layer should support replacement between:
-
-
 
 \* Local models
 
@@ -484,27 +314,15 @@ The AI layer should support replacement between:
 
 \* Future AI systems
 
-
-
 The application should treat AI models as interchangeable tools.
-
-
 
 \---
 
-
-
 \# 9. User Ownership Principle
-
-
 
 The user's creations belong to the user.
 
-
-
 StoryOS must support:
-
-
 
 \* Exporting worlds
 
@@ -514,23 +332,13 @@ StoryOS must support:
 
 \* Moving projects between systems
 
-
-
 A user's universe should remain usable even if the AI technology changes.
-
-
 
 \---
 
-
-
 \# 10. Development Philosophy
 
-
-
 StoryOS should prioritise:
-
-
 
 1\. Reliability over unnecessary complexity
 
@@ -542,13 +350,7 @@ StoryOS should prioritise:
 
 5\. Long-term maintainability over quick demonstrations
 
-
-
 The goal is not to create another chatbot.
 
-
-
 The goal is to create a complete environment for building living fictional worlds.
-
-
 
