@@ -1,0 +1,25 @@
+:root { color-scheme: dark; font-family: Inter, "Segoe UI", system-ui, sans-serif; background: #101824; color: #edf2f7; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 1100px; min-height: 100vh; }
+button { font: inherit; }
+.application-shell { display: grid; grid-template-rows: 48px 1fr 30px; min-height: 100vh; background: #101824; }
+.menu-bar, .status-bar { display: flex; align-items: center; border-color: #27364a; background: #152131; }
+.menu-bar { justify-content: space-between; padding: 0 18px; border-bottom: 1px solid #27364a; }
+.brand { display: flex; align-items: center; gap: 9px; font-weight: 700; letter-spacing: .01em; }
+.brand-mark { display: grid; place-items: center; width: 23px; height: 23px; border-radius: 7px; color: #0f1722; background: #8bd3dd; font-size: 13px; }
+.menu-bar nav { display: flex; gap: 2px; margin-right: auto; margin-left: 30px; }
+.menu-bar button { border: 0; padding: 6px 10px; background: transparent; color: #b8c7d9; border-radius: 5px; cursor: default; }
+.menu-bar button:hover { background: #22334a; color: #fff; }
+.foundation-label, .placeholder-tag { border: 1px solid #314966; border-radius: 999px; color: #a8dfe7; font-size: 12px; padding: 3px 9px; }
+.workspace-layout { display: grid; grid-template-columns: 240px minmax(0, 1fr) 270px; min-height: 0; }
+.navigation-panel, .inspector-panel { padding: 22px 14px; background: #132031; }
+.navigation-panel { border-right: 1px solid #27364a; }
+.inspector-panel { border-left: 1px solid #27364a; }
+.panel-label, .eyebrow { margin: 0 0 12px; color: #7f9ab7; text-transform: uppercase; letter-spacing: .1em; font-size: 11px; font-weight: 700; }
+.navigation-list { display: grid; gap: 3px; }
+.navigation-button { width: 100%; padding: 9px 11px; border: 0; border-radius: 7px; background: transparent; color: #c6d3e1; text-align: left; cursor: pointer; }
+.navigation-button:hover { background: #1d3046; }.navigation-button.is-active { color: #fff; background: #28536d; box-shadow: inset 3px 0 #8bd3dd; }
+.workspace { padding: clamp(32px, 7vw, 96px); background: radial-gradient(circle at top left, #18324a, #101824 52%); }
+.workspace-heading { max-width: 760px; }.workspace h1 { margin: 0; font-size: clamp(34px, 4vw, 52px); letter-spacing: -.04em; }.placeholder-card { max-width: 760px; margin-top: 32px; padding: 25px; border: 1px solid #2c425a; border-radius: 12px; background: #162639cc; }.placeholder-card p { margin: 0 0 18px; color: #b9c8d8; font-size: 17px; }
+.inspector-panel h2 { margin: 0 0 10px; font-size: 17px; }.inspector-panel p:not(.panel-label) { margin: 0; color: #96aabd; font-size: 14px; line-height: 1.5; }
+.status-bar { justify-content: space-between; padding: 0 14px; border-top: 1px solid #27364a; color: #91a8bd; font-size: 12px; }

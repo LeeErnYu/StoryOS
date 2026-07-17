@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StoryOS</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="application-shell">
+      <header class="menu-bar" aria-label="Application menu">
+        <div class="brand"><span class="brand-mark">S</span><span>StoryOS</span></div>
+        <nav><button type="button">File</button><button type="button">Edit</button><button type="button">View</button><button type="button">Help</button></nav>
+        <span class="foundation-label">Foundation</span>
+      </header>
+      <div class="workspace-layout">
+        <aside class="navigation-panel" aria-label="Primary navigation">
+          <p class="panel-label">Workspace</p>
+          <nav id="navigation" class="navigation-list"></nav>
+        </aside>
+        <main class="workspace" aria-live="polite">
+          <div class="workspace-heading"><p class="eyebrow">StoryOS</p><h1 id="page-title"></h1></div>
+          <section class="placeholder-card"><p id="page-description"></p><span class="placeholder-tag">Future ticket</span></section>
+        </main>
+        <aside class="inspector-panel" aria-label="Inspector">
+          <p class="panel-label">Inspector</p>
+          <h2>Nothing selected</h2>
+          <p>Select an item in a future module to view its details here.</p>
+        </aside>
+      </div>
+      <footer class="status-bar"><span>Ready</span><span>StoryOS foundation · No project open</span></footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "storyos",
+  "version": "0.1.0",
+  "description": "StoryOS application foundation",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check src/main/index.js && node --check src/main/menu.js && node --check src/renderer/app.js && node --check src/modules/index.js && node --check src/modules/domain/models.js && node --check src/modules/ai/provider.js && node --check src/modules/ai/kobold-cpp-provider.js && node --check src/modules/canon/index.js && node --check src/modules/characters/index.js && node --check src/modules/export/index.js && node --check src/modules/plugins/index.js && node --check src/modules/projects/index.js && node --check src/modules/search/index.js && node --check src/modules/timeline/index.js && node --check src/modules/world/index.js && node --check src/modules/writer/index.js"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "electron": "^37.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
